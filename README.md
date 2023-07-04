@@ -14,5 +14,11 @@ To summarize, I have:
 Clustering of text features allows to better identify certain categories, while clustering of image features allows to better identify others. The two approaches complement and reinforce each other: by taking the best clustering, text or image, for each category, it is possible to correctly classify the 85% of products, which demonstrate the feasibility of the classification engine. The feasibility was confirmed by a classification test: an SVC trained on all the features, text and image, correctly classified 94.7% of products.
 
 These results could be further improved. Indeed, neither the USE model nor the ResNet were fine-tuned. A fine tuning of the models could better adapt them to the problem of product classification and therefore lead to better accuracy.
-
+## Acquired skills
+-	Graphically represent large-scale data
+-	Pre-process text data 
+-	Preprocess image data 
+-	Implement dimension reduction techniques
+-	Developing a deep learning model
+-	Evaluate the performance of deep learning models 
 
